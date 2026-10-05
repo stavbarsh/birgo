@@ -1,0 +1,17 @@
+{
+  "seed": 3407,
+  "func": {
+    "name": "Rastrigin",
+    "dim": 2
+  },
+  "training": {
+    "max_eval": 2000,
+    "sol_per_dim" : 10,
+    "accuracy": -1,
+    "restart_method": "init",
+    "learning_rate": 1e-2,
+    "optimizer_type": "adam",
+    "std": 1
+  },
+  "verbose": true
+}
